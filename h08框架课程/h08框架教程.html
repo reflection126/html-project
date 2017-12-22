@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>frameset</title>
+</head>
+<!-- frameset 和 body不能共存 -->
+
+<!-- frameborder 规定是否显示框架周围的边框。0表示不要边框，1表示显示边框 -->
+	<!-- bordder 设置框架的边框粗细 -->
+	<!-- bordercolor 设置边框颜色 -->
+	<!-- cols 纵向分割页面，它的值有三种：数字、百分比、* 表示该区域占用余下的页面空间 -->
+	<!-- rows横向分割页面 -->
+	<!-- name 设置框架名称 -->
+	<!-- src 设置此框架显示的网页名称或路径，必须设置 -->
+	<!-- scrolling 设置是否要显示滚动条，设置值为auto,yes,no -->
+	<!-- noresize 设置框架大小是否能手动调节 -->
+	<!-- marginheight 定义框架上方和下方的边距 -->
+	<!-- marginwidth 左右的边距 -->
+
+<frameset rows="15%,*" frameborder="1">
+	<frame src="http://www.baidu.com" name="top" />
+	<frameset cols="30%,*">
+		<frame src="1.html" name="left" />
+		<frame src="http://tmao.com" name="main"/>		
+	</frameset>	
+</frameset>	
+
+
+</html>
